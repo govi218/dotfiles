@@ -1,8 +1,0 @@
-2020/08/22-13:45:50.301 c6c Reusing MANIFEST /home/gov/.config/chromium/Default/IndexedDB/https_324ecda3adb4baef3cc8fe8f502c3779.safeframe.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/08/22-13:45:50.301 c6c Recovering log #19
-2020/08/22-13:45:50.301 c6c Reusing old log /home/gov/.config/chromium/Default/IndexedDB/https_324ecda3adb4baef3cc8fe8f502c3779.safeframe.googlesyndication.com_0.indexeddb.leveldb/000019.log 
-2020/08/22-13:46:04.616 b2e Level-0 table #23: started
-2020/08/22-13:46:04.616 b2e Level-0 table #23: 0 bytes OK
-2020/08/22-13:46:04.619 b2e Delete type=0 #19
-2020/08/22-13:46:04.620 b2e Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/08/22-13:46:04.620 b2e Manual compaction at level-1 from (begin) .. (end); will stop at (end)
