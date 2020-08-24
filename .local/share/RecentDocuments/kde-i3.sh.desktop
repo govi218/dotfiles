@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=application-x-shellscript
+Name=kde-i3.sh
+Type=Link
+URL[$e]=file:$HOME/kde-i3.sh
+X-KDE-LastOpenedWith=systemsettings

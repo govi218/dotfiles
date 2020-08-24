@@ -1,0 +1,7 @@
+[KFileDialog Settings]
+Recent Files[$e]=kde-i3.sh,file:$HOME/kde-i3.sh
+detailViewIconSize=0
+
+[MainWindow]
+Height 1080=700
+Width 1920=1024

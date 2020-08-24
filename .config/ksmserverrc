@@ -1,0 +1,24 @@
+[$Version]
+update_info=ksmserver_update_loginMode_value.upd:ksmserver_update_loginMode_value_default_enum
+
+[LegacySession: saved at previous logout]
+count=0
+
+[Session: saved at previous logout]
+clientId1=10969f6144000159779252400000006740002
+clientId2=10969f6144000159779252400000006740003
+clientId3=10969f6144000159780054900000006940004
+count=3
+discardCommand1[$e]=rm,$HOME/.config/session/kmix_10969f6144000159779252400000006740002_1597800929_462201
+program1=/usr/bin/kmix
+program2=/usr/bin/korgac
+program3=pulseaudio
+restartCommand1=/usr/bin/kmix,-session,10969f6144000159779252400000006740002_1597800929_462201
+restartCommand2=/usr/bin/korgac,-session,10969f6144000159779252400000006740003_1597800929_462200
+restartCommand3=
+restartStyleHint1=0
+restartStyleHint2=0
+restartStyleHint3=0
+userId1=gov
+userId2=gov
+userId3=gov

@@ -1,0 +1,4 @@
+station wlan0 connect BELL626 
+station list wlan0 get-networks
+station wlan0 get-networks 
+station wlan0 connect BELL626 

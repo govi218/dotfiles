@@ -1,0 +1,8 @@
+2020/08/22-19:35:33.276 493 Reusing MANIFEST /home/gov/.config/chromium/Default/IndexedDB/https_f07a6a0094ee27f4ebb3a3cc2d3a423b.safeframe.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/22-19:35:33.276 493 Recovering log #4
+2020/08/22-19:35:33.276 493 Reusing old log /home/gov/.config/chromium/Default/IndexedDB/https_f07a6a0094ee27f4ebb3a3cc2d3a423b.safeframe.googlesyndication.com_0.indexeddb.leveldb/000004.log 
+2020/08/22-19:35:36.929 682 Level-0 table #8: started
+2020/08/22-19:35:36.929 682 Level-0 table #8: 0 bytes OK
+2020/08/22-19:35:36.931 682 Delete type=0 #4
+2020/08/22-19:35:36.931 682 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/08/22-19:35:36.931 682 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

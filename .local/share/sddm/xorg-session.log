@@ -1,0 +1,31 @@
+kdeinit5: preparing to launch '/usr/lib/kf5/klauncher'
+kdeinit5: Launched KLauncher, pid = 625, result = 0
+kdeinit5: opened connection to :0
+kdeinit5: Got SETENV 'XCURSOR_SIZE=24' from launcher.
+kdeinit5: Got SETENV 'GTK_RC_FILES=/etc/gtk/gtkrc:/home/gov/.gtkrc:/home/gov/.config/gtkrc' from launcher.
+kdeinit5: Got SETENV 'GTK2_RC_FILES=/etc/gtk-2.0/gtkrc:/home/gov/.gtkrc-2.0:/home/gov/.config/gtkrc-2.0' from launcher.
+/bin/sh: xss-lock: command not found
+/bin/sh: nm-applet: command not found
+/bin/sh: i3status: command not found
+[../i3-4.18.2/../i3-4.18.2/i3bar/src/child.c:504] ERROR: Child (pid: 664) unexpectedly exited with status 127
+kdeinit5: Got SETENV 'SESSION_MANAGER=local/GLaDOS:@/tmp/.ICE-unix/649,unix/GLaDOS:/tmp/.ICE-unix/649' from launcher.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/desktop.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/desktop.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+warning: no locale support
+[962:962:0823/200558.137989:ERROR:vaapi_wrapper.cc(511)] vaInitialize failed: unknown libva error
+[962:962:0823/200558.166416:ERROR:sandbox_linux.cc(374)] InitializeSandbox() called with multiple threads in process gpu-process.
+[966:984:0823/200558.260272:ERROR:simple_index_file_posix.cc(61)] Could not get file info for /home/gov/.cache/chromium/Default/Cache/9034d0c4b726cc73_0
+Fontconfig error: Cannot load default config file: No such file: (null)
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+kdeinit5: PID 848 terminated.
+kdeinit5: PID 846 terminated.
+kdeinit5: PID 883 terminated.

@@ -1,0 +1,5 @@
+2020/08/22-19:33:13.252 d02 Reusing MANIFEST /home/gov/.config/chromium/Default/IndexedDB/https_tabs.ultimate-guitar.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/22-19:41:05.789 682 Level-0 table #5: started
+2020/08/22-19:41:05.795 682 Level-0 table #5: 78415 bytes OK
+2020/08/22-19:41:05.797 682 Delete type=0 #3
+2020/08/22-19:41:05.798 682 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
