@@ -1,14 +1,16 @@
 kdeinit5: preparing to launch '/usr/lib/kf5/klauncher'
-kdeinit5: Launched KLauncher, pid = 625, result = 0
+kdeinit5: Launched KLauncher, pid = 622, result = 0
 kdeinit5: opened connection to :0
 kdeinit5: Got SETENV 'XCURSOR_SIZE=24' from launcher.
 kdeinit5: Got SETENV 'GTK_RC_FILES=/etc/gtk/gtkrc:/home/gov/.gtkrc:/home/gov/.config/gtkrc' from launcher.
 kdeinit5: Got SETENV 'GTK2_RC_FILES=/etc/gtk-2.0/gtkrc:/home/gov/.gtkrc-2.0:/home/gov/.config/gtkrc-2.0' from launcher.
 /bin/sh: xss-lock: command not found
 /bin/sh: nm-applet: command not found
-/bin/sh: i3status: command not found
-[../i3-4.18.2/../i3-4.18.2/i3bar/src/child.c:504] ERROR: Child (pid: 664) unexpectedly exited with status 127
-kdeinit5: Got SETENV 'SESSION_MANAGER=local/GLaDOS:@/tmp/.ICE-unix/649,unix/GLaDOS:/tmp/.ICE-unix/649' from launcher.
+kdeinit5: Got SETENV 'SESSION_MANAGER=local/GLaDOS:@/tmp/.ICE-unix/646,unix/GLaDOS:/tmp/.ICE-unix/646' from launcher.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/desktop.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/desktop.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
 kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/desktop.so' from launcher.
 kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/desktop.so'
 kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
@@ -16,16 +18,81 @@ kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
 kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
 kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
 warning: no locale support
-[962:962:0823/200558.137989:ERROR:vaapi_wrapper.cc(511)] vaInitialize failed: unknown libva error
-[962:962:0823/200558.166416:ERROR:sandbox_linux.cc(374)] InitializeSandbox() called with multiple threads in process gpu-process.
-[966:984:0823/200558.260272:ERROR:simple_index_file_posix.cc(61)] Could not get file info for /home/gov/.cache/chromium/Default/Cache/9034d0c4b726cc73_0
+[1034:1034:0824/163727.789859:ERROR:vaapi_wrapper.cc(511)] vaInitialize failed: unknown libva error
+[1034:1034:0824/163727.814581:ERROR:sandbox_linux.cc(374)] InitializeSandbox() called with multiple threads in process gpu-process.
+[1038:1057:0825/124215.205300:ERROR:cert_verify_proc_builtin.cc(637)] CertVerifyProcBuiltin for sync-tm.everesttech.net failed:
+----- Certificate i=0 (CN=h2.shared.global.fastly.net,O=Fastly\, Inc.,L=San Francisco,ST=California,C=US) -----
+ERROR: Time is before notBefore
+
+
+[1038:1058:0825/124215.205736:ERROR:ssl_client_socket_impl.cc(959)] handshake failed; returned -1, SSL error code 1, net_error -201
 Fontconfig error: Cannot load default config file: No such file: (null)
 kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
 kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-libpng warning: iCCP: known incorrect sRGB profile
-libpng warning: iCCP: known incorrect sRGB profile
-libpng warning: iCCP: known incorrect sRGB profile
-libpng warning: iCCP: known incorrect sRGB profile
+kdeinit5: PID 851 terminated.
 kdeinit5: PID 848 terminated.
-kdeinit5: PID 846 terminated.
-kdeinit5: PID 883 terminated.
+kdeinit5: PID 849 terminated.
+kdeinit5: PID 845 terminated.
+kdeinit5: PID 886 terminated.
+warning: no locale support
+
+(process:3116): Gtk-WARNING **: 12:46:09.320: Locale not supported by C library.
+	Using the fallback 'C' locale.
+warning: no locale support
+warning: no locale support
+libpng warning: iCCP: extra compressed data
+libpng warning: iCCP: extra compressed data
+[1038:1058:0825/124732.000124:ERROR:ssl_client_socket_impl.cc(959)] handshake failed; returned -1, SSL error code 1, net_error -107
+[1038:1058:0825/124732.159209:ERROR:ssl_client_socket_impl.cc(959)] handshake failed; returned -1, SSL error code 1, net_error -113
+[1038:3248:0825/124732.167699:ERROR:cert_issuer_source_aia.cc(32)] Error parsing cert retrieved from AIA (as DER):
+ERROR: Couldn't read tbsCertificate as SEQUENCE
+ERROR: Failed parsing Certificate
+
+[1038:3248:0825/124732.216420:ERROR:cert_verify_proc_builtin.cc(637)] CertVerifyProcBuiltin for s.0cf.io failed:
+----- Certificate i=0 (CN=s.0cf.io) -----
+ERROR: Time is after notAfter
+
+
+[1038:1058:0825/124732.216590:ERROR:ssl_client_socket_impl.cc(959)] handshake failed; returned -1, SSL error code 1, net_error -201
+Fontconfig error: Cannot load default config file: No such file: (null)
+[1038:1058:0825/124732.334372:ERROR:ssl_client_socket_impl.cc(959)] handshake failed; returned -1, SSL error code 1, net_error -113
+Fontconfig error: Cannot load default config file: No such file: (null)
+[1038:1058:0825/124734.140658:ERROR:ssl_client_socket_impl.cc(959)] handshake failed; returned -1, SSL error code 1, net_error -113
+Fontconfig error: Cannot load default config file: No such file: (null)
+BUG: single log message > 4k
+BUG: single log message > 4k
+BUG: single log message > 4k
+BUG: single log message > 4k
+BUG: single log message > 4k
+BUG: single log message > 4k
+BUG: single log message > 4k
+i3status: no process found
+i3status: no process found
+i3status: no process found
+i3status: no process found
+warning: no locale support
+spotify: /usr/lib/libcurl-gnutls.so.4: no version information available (required by spotify)
+
+(process:15273): Gtk-WARNING **: 13:09:40.093: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(spotify:15273): Gtk-WARNING **: 13:09:40.105: Unable to locate theme engine in module_path: "adwaita",
+/opt/spotify/spotify: /usr/lib/libcurl-gnutls.so.4: no version information available (required by /opt/spotify/spotify)
+/proc/self/exe: /usr/lib/libcurl-gnutls.so.4: no version information available (required by /proc/self/exe)
+[0825/130940.273905:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+warning: no locale support
+spotify: /usr/lib/libcurl-gnutls.so.4: no version information available (required by spotify)
+
+(process:15339): Gtk-WARNING **: 13:09:46.314: Locale not supported by C library.
+	Using the fallback 'C' locale.
+
+(spotify:15339): Gtk-WARNING **: 13:09:46.324: Unable to locate theme engine in module_path: "adwaita",
+/opt/spotify/spotify: /usr/lib/libcurl-gnutls.so.4: no version information available (required by /opt/spotify/spotify)
+/proc/self/exe: /usr/lib/libcurl-gnutls.so.4: no version information available (required by /proc/self/exe)
+[0825/130946.501112:ERROR:buffer_manager.cc(488)] [.DisplayCompositor]GL ERROR :GL_INVALID_OPERATION : glBufferData: <- error from previous GL command
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile

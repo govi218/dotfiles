@@ -1,0 +1,15 @@
+2020/08/22-19:41:27.383 d01 Reusing MANIFEST /home/gov/.config/chromium/Default/IndexedDB/https_tabs.ultimate-guitar.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/22-19:41:27.383 d01 Recovering log #4
+2020/08/22-19:41:27.384 d01 Reusing old log /home/gov/.config/chromium/Default/IndexedDB/https_tabs.ultimate-guitar.com_0.indexeddb.leveldb/000004.log 
+2020/08/22-19:43:35.382 682 Level-0 table #8: started
+2020/08/22-19:43:35.384 682 Level-0 table #8: 8034 bytes OK
+2020/08/22-19:43:35.386 682 Delete type=0 #4
+2020/08/22-19:43:35.386 682 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/08/22-19:43:35.387 682 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01 \x03\x00\x10(\xc6\x88AwB\x00\x01V\x00u\x00g\x00-\x00u\x00s\x00e\x00r\x00-\x00g\x00e\x00n\x00e\x00r\x00a\x00t\x00e\x00d\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00t\x00a\x00b\x00s\x00.\x00u\x00l\x00t\x00i\x00m\x00a\x00t\x00e\x00-\x00g\x00u\x00i\x00t\x00a\x00r\x00.\x00c\x00o\x00m\x00/\x00s\x00t\x00a\x00t\x00i\x00c\x00/\x00u\x00s\x00e\x00r\x00s\x00/\x008\x00/\x007\x00/\x006\x00/\x002\x002\x005\x001\x009\x006\x007\x008\x00.\x00g\x00i\x00f\x00?\x00d\x00=\x00d' @ 1536 : 1
+2020/08/22-19:43:35.387 682 Compacting 1@1 + 1@2 files
+2020/08/22-19:43:35.391 682 Generated table #9@1: 189 keys, 29031 bytes
+2020/08/22-19:43:35.391 682 Compacted 1@1 + 1@2 files => 29031 bytes
+2020/08/22-19:43:35.392 682 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/08/22-19:43:35.393 682 Delete type=2 #5
+2020/08/22-19:43:35.393 682 Delete type=2 #8
+2020/08/22-19:43:35.393 682 Manual compaction at level-1 from '\x00\x01\x01 \x03\x00\x10(\xc6\x88AwB\x00\x01V\x00u\x00g\x00-\x00u\x00s\x00e\x00r\x00-\x00g\x00e\x00n\x00e\x00r\x00a\x00t\x00e\x00d\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00t\x00a\x00b\x00s\x00.\x00u\x00l\x00t\x00i\x00m\x00a\x00t\x00e\x00-\x00g\x00u\x00i\x00t\x00a\x00r\x00.\x00c\x00o\x00m\x00/\x00s\x00t\x00a\x00t\x00i\x00c\x00/\x00u\x00s\x00e\x00r\x00s\x00/\x008\x00/\x007\x00/\x006\x00/\x002\x002\x005\x001\x009\x006\x007\x008\x00.\x00g\x00i\x00f\x00?\x00d\x00=\x00d' @ 1536 : 1 .. (end); will stop at (end)
