@@ -5,25 +5,31 @@
 |1,4
 
 # Value of 'encoding' when this file was written
-*encoding=latin1
+*encoding=utf-8
 
 
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/en_US
+~MSle0~/theme
 
 # Command Line History (newest to oldest):
+:wq
+|2,0,1598407148,,"wq"
+:q
+|2,0,1598407115,,"q"
+:w
+|2,0,1598406589,,"w"
+:w arc_block_notes.txt
+|2,0,1598383198,,"w arc_block_notes.txt"
 :q!
 |2,0,1598375729,,"q!"
-:wq
-|2,0,1598375724,,"wq"
-:w
-|2,0,1598374994,,"w"
-:q
-|2,0,1598374804,,"q"
 
 # Search String History (newest to oldest):
+?/theme
+|2,1,1598407124,47,"theme"
+?/dmenu
+|2,1,1598406297,47,"dmenu"
 ?/en_US
 |2,1,1598375717,47,"en_US"
 ?/border pi
@@ -44,17 +50,35 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
+"0	LINE	0
+	bindsym $mod+d exec rofi -show run
+|3,0,0,1,1,0,1598406428,"bindsym $mod+d exec rofi -show run"
 "1	LINE	0
-	
-|3,0,1,1,1,0,1598229594,""
+	bindsym $mod+
+|3,0,1,1,1,0,1598406391,"bindsym $mod+"
 "2	LINE	0
+	
+	
+|3,0,2,1,2,0,1598406346,"",""
+"3	LINE	0
+	# installed.
+	# bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
+|3,0,3,1,2,0,1598406345,"# installed.","# bindsym $mod+d exec --no-startup-id i3-dmenu-desktop"
+"4	LINE	0
+	# There also is the (new) i3-dmenu-desktop which only displays applications
+	# shipping a .desktop file. It is a wrapper around dmenu, so you need that
+|3,0,4,1,2,0,1598406344,"# There also is the (new) i3-dmenu-desktop which only displays applications","# shipping a .desktop file. It is a wrapper around dmenu, so you need that"
+"5	LINE	0
+	
+|3,0,5,1,1,0,1598229594,""
+"6	LINE	0
 	# set border radius
 	# border_radius 15
-|3,0,2,1,2,0,1598229593,"# set border radius","# border_radius 15"
-"3	LINE	0
+|3,0,6,1,2,0,1598229593,"# set border radius","# border_radius 15"
+"7	LINE	0
 	
-|3,0,3,1,1,0,1598111422,""
-"4	CHAR	0
+|3,0,7,1,1,0,1598111422,""
+"8	CHAR	0
 	
 	# Don't treat Plasma pop-ups as full-sized windows
 	for_window [class="plasmashell"] floating enable
@@ -65,237 +89,294 @@
 	# Don't let notifications and non-interactive pop-up windows steal focus
 	no_focus [class="plasmashell" window_type="notification"]
 	no_focus [class="plasmashell" window_type="on_screen_display"]
-|3,0,4,0,10,0,1598111410,"","# Don't treat Plasma pop-ups as full-sized windows","for_window [class=\"plasmashell\"] floating enable","","# Don't spawn an empty window for the Plasma Desktop","for_window [title=\"Desktop - Plasma\"] kill, floating enable, border none","","# Don't let notifications and non-interactive pop-up windows steal focus","no_focus [class=\"plasmashell\" window_type=\"notification\"]",>68
+|3,0,8,0,10,0,1598111410,"","# Don't treat Plasma pop-ups as full-sized windows","for_window [class=\"plasmashell\"] floating enable","","# Don't spawn an empty window for the Plasma Desktop","for_window [title=\"Desktop - Plasma\"] kill, floating enable, border none","","# Don't let notifications and non-interactive pop-up windows steal focus","no_focus [class=\"plasmashell\" window_type=\"notification\"]",>68
 |<"no_focus [class=\"plasmashell\" window_type=\"on_screen_display\"]"
 ""-	CHAR	0
-	#
-|3,1,36,0,1,0,1598375722,"#"
+	/
+|3,1,36,0,1,0,1598407136,"/"
 
 # File marks:
-'0  177  0  /etc/locale.gen
-|4,48,177,0,1598375729,"/etc/locale.gen"
-'1  2  0  /etc/locale.conf
-|4,49,2,0,1598375682,"/etc/locale.conf"
-'2  181  11  ~/.config/i3/config
-|4,50,181,11,1598375011,"~/.config/i3/config"
-'3  197  14  ~/.config/i3/config
-|4,51,197,14,1598374804,"~/.config/i3/config"
-'4  197  14  ~/.config/i3/config
-|4,52,197,14,1598374804,"~/.config/i3/config"
-'5  81  0  ~/.zshrc
-|4,53,81,0,1598374706,"~/.zshrc"
-'6  1  0  ~/dev/qtoken-cpp/.zshrc
-|4,54,1,0,1598374691,"~/dev/qtoken-cpp/.zshrc"
-'7  10  15  ~/.zshrc
-|4,55,10,15,1598374121,"~/.zshrc"
-'8  10  15  ~/.zshrc
-|4,56,10,15,1598374121,"~/.zshrc"
-'9  2  2  ~/.cache/pacaur/snapd/snapd.install
-|4,57,2,2,1598301680,"~/.cache/pacaur/snapd/snapd.install"
+'0  56  22  ~/.config/rofi/config.rasi
+|4,48,56,22,1598407148,"~/.config/rofi/config.rasi"
+'1  145  0  ~/.config/rofi/glue_pro_blue.rasi
+|4,49,145,0,1598407115,"~/.config/rofi/glue_pro_blue.rasi"
+'2  145  0  ~/.config/rofi/glue_pro_blue.rasi
+|4,50,145,0,1598407030,"~/.config/rofi/glue_pro_blue.rasi"
+'3  51  19  ~/.config/i3/config
+|4,51,51,19,1598406644,"~/.config/i3/config"
+'4  17  0  ~/.cache/pacaur/rofi-dmenu/PKGBUILD
+|4,52,17,0,1598406167,"~/.cache/pacaur/rofi-dmenu/PKGBUILD"
+'5  1  0  ~/.cache/pacaur/slack-desktop/PKGBUILD
+|4,53,1,0,1598405926,"~/.cache/pacaur/slack-desktop/PKGBUILD"
+'6  8  40  ~/arc_block_notes.txt
+|4,54,8,40,1598383200,"~/arc_block_notes.txt"
+'7  22  0  ~/.cache/pacaur/teams-for-linux/PKGBUILD
+|4,55,22,0,1598381004,"~/.cache/pacaur/teams-for-linux/PKGBUILD"
+'8  177  0  /etc/locale.gen
+|4,56,177,0,1598375729,"/etc/locale.gen"
+'9  2  0  /etc/locale.conf
+|4,57,2,0,1598375682,"/etc/locale.conf"
 
 # Jumplist (newest first):
--'  177  0  /etc/locale.gen
-|4,39,177,0,1598375729,"/etc/locale.gen"
--'  14  3  /etc/locale.gen
-|4,39,14,3,1598375719,"/etc/locale.gen"
--'  13  3  /etc/locale.gen
-|4,39,13,3,1598375718,"/etc/locale.gen"
--'  511  0  /etc/locale.gen
-|4,39,511,0,1598375717,"/etc/locale.gen"
--'  257  0  /etc/locale.gen
-|4,39,257,0,1598375709,"/etc/locale.gen"
--'  1  0  /etc/locale.gen
-|4,39,1,0,1598375691,"/etc/locale.gen"
--'  2  0  /etc/locale.conf
-|4,39,2,0,1598375682,"/etc/locale.conf"
--'  2  0  /etc/locale.conf
-|4,39,2,0,1598375682,"/etc/locale.conf"
--'  1  0  /etc/locale.conf
-|4,39,1,0,1598375656,"/etc/locale.conf"
--'  1  0  /etc/locale.conf
-|4,39,1,0,1598375656,"/etc/locale.conf"
--'  181  11  ~/.config/i3/config
-|4,39,181,11,1598375011,"~/.config/i3/config"
--'  181  11  ~/.config/i3/config
-|4,39,181,11,1598375011,"~/.config/i3/config"
--'  181  11  ~/.config/i3/config
-|4,39,181,11,1598375011,"~/.config/i3/config"
--'  181  11  ~/.config/i3/config
-|4,39,181,11,1598375011,"~/.config/i3/config"
--'  183  0  ~/.config/i3/config
-|4,39,183,0,1598374981,"~/.config/i3/config"
--'  183  0  ~/.config/i3/config
-|4,39,183,0,1598374981,"~/.config/i3/config"
--'  183  0  ~/.config/i3/config
-|4,39,183,0,1598374981,"~/.config/i3/config"
--'  183  0  ~/.config/i3/config
-|4,39,183,0,1598374981,"~/.config/i3/config"
--'  182  11  ~/.config/i3/config
-|4,39,182,11,1598374968,"~/.config/i3/config"
--'  182  11  ~/.config/i3/config
-|4,39,182,11,1598374968,"~/.config/i3/config"
--'  182  11  ~/.config/i3/config
-|4,39,182,11,1598374968,"~/.config/i3/config"
--'  182  11  ~/.config/i3/config
-|4,39,182,11,1598374968,"~/.config/i3/config"
--'  197  14  ~/.config/i3/config
-|4,39,197,14,1598374939,"~/.config/i3/config"
--'  197  14  ~/.config/i3/config
-|4,39,197,14,1598374939,"~/.config/i3/config"
--'  197  14  ~/.config/i3/config
-|4,39,197,14,1598374939,"~/.config/i3/config"
--'  197  14  ~/.config/i3/config
-|4,39,197,14,1598374939,"~/.config/i3/config"
--'  197  14  ~/.config/i3/config
-|4,39,197,14,1598374804,"~/.config/i3/config"
--'  197  14  ~/.config/i3/config
-|4,39,197,14,1598374804,"~/.config/i3/config"
--'  197  14  ~/.config/i3/config
-|4,39,197,14,1598374804,"~/.config/i3/config"
--'  197  14  ~/.config/i3/config
-|4,39,197,14,1598374804,"~/.config/i3/config"
--'  192  77  ~/.config/i3/config
-|4,39,192,77,1598374721,"~/.config/i3/config"
--'  192  77  ~/.config/i3/config
-|4,39,192,77,1598374721,"~/.config/i3/config"
--'  192  77  ~/.config/i3/config
-|4,39,192,77,1598374721,"~/.config/i3/config"
--'  192  77  ~/.config/i3/config
-|4,39,192,77,1598374721,"~/.config/i3/config"
--'  192  77  ~/.config/i3/config
-|4,39,192,77,1598374721,"~/.config/i3/config"
--'  192  77  ~/.config/i3/config
-|4,39,192,77,1598374721,"~/.config/i3/config"
--'  192  77  ~/.config/i3/config
-|4,39,192,77,1598374721,"~/.config/i3/config"
--'  192  77  ~/.config/i3/config
-|4,39,192,77,1598374721,"~/.config/i3/config"
--'  81  0  ~/.zshrc
-|4,39,81,0,1598374706,"~/.zshrc"
--'  81  0  ~/.zshrc
-|4,39,81,0,1598374706,"~/.zshrc"
--'  81  0  ~/.zshrc
-|4,39,81,0,1598374706,"~/.zshrc"
--'  81  0  ~/.zshrc
-|4,39,81,0,1598374706,"~/.zshrc"
--'  81  0  ~/.zshrc
-|4,39,81,0,1598374706,"~/.zshrc"
--'  81  0  ~/.zshrc
-|4,39,81,0,1598374706,"~/.zshrc"
--'  81  0  ~/.zshrc
-|4,39,81,0,1598374706,"~/.zshrc"
--'  81  0  ~/.zshrc
-|4,39,81,0,1598374706,"~/.zshrc"
--'  81  0  ~/.zshrc
-|4,39,81,0,1598374706,"~/.zshrc"
--'  81  0  ~/.zshrc
-|4,39,81,0,1598374706,"~/.zshrc"
--'  81  0  ~/.zshrc
-|4,39,81,0,1598374706,"~/.zshrc"
--'  81  0  ~/.zshrc
-|4,39,81,0,1598374706,"~/.zshrc"
--'  81  0  ~/.zshrc
-|4,39,81,0,1598374706,"~/.zshrc"
--'  81  0  ~/.zshrc
-|4,39,81,0,1598374706,"~/.zshrc"
--'  81  0  ~/.zshrc
-|4,39,81,0,1598374706,"~/.zshrc"
--'  81  0  ~/.zshrc
-|4,39,81,0,1598374706,"~/.zshrc"
--'  65  15  ~/.zshrc
-|4,39,65,15,1598374702,"~/.zshrc"
--'  65  15  ~/.zshrc
-|4,39,65,15,1598374702,"~/.zshrc"
--'  65  15  ~/.zshrc
-|4,39,65,15,1598374702,"~/.zshrc"
--'  65  15  ~/.zshrc
-|4,39,65,15,1598374702,"~/.zshrc"
--'  65  15  ~/.zshrc
-|4,39,65,15,1598374702,"~/.zshrc"
--'  65  15  ~/.zshrc
-|4,39,65,15,1598374702,"~/.zshrc"
--'  65  15  ~/.zshrc
-|4,39,65,15,1598374702,"~/.zshrc"
--'  65  15  ~/.zshrc
-|4,39,65,15,1598374702,"~/.zshrc"
--'  65  15  ~/.zshrc
-|4,39,65,15,1598374702,"~/.zshrc"
--'  65  15  ~/.zshrc
-|4,39,65,15,1598374702,"~/.zshrc"
--'  65  15  ~/.zshrc
-|4,39,65,15,1598374702,"~/.zshrc"
--'  65  15  ~/.zshrc
-|4,39,65,15,1598374702,"~/.zshrc"
--'  65  15  ~/.zshrc
-|4,39,65,15,1598374702,"~/.zshrc"
--'  65  15  ~/.zshrc
-|4,39,65,15,1598374702,"~/.zshrc"
--'  65  15  ~/.zshrc
-|4,39,65,15,1598374702,"~/.zshrc"
--'  65  15  ~/.zshrc
-|4,39,65,15,1598374702,"~/.zshrc"
--'  10  15  ~/.zshrc
-|4,39,10,15,1598374696,"~/.zshrc"
--'  10  15  ~/.zshrc
-|4,39,10,15,1598374696,"~/.zshrc"
--'  10  15  ~/.zshrc
-|4,39,10,15,1598374696,"~/.zshrc"
--'  10  15  ~/.zshrc
-|4,39,10,15,1598374696,"~/.zshrc"
--'  10  15  ~/.zshrc
-|4,39,10,15,1598374696,"~/.zshrc"
--'  10  15  ~/.zshrc
-|4,39,10,15,1598374696,"~/.zshrc"
--'  10  15  ~/.zshrc
-|4,39,10,15,1598374696,"~/.zshrc"
--'  10  15  ~/.zshrc
-|4,39,10,15,1598374696,"~/.zshrc"
--'  10  15  ~/.zshrc
-|4,39,10,15,1598374696,"~/.zshrc"
--'  10  15  ~/.zshrc
-|4,39,10,15,1598374696,"~/.zshrc"
--'  10  15  ~/.zshrc
-|4,39,10,15,1598374696,"~/.zshrc"
--'  10  15  ~/.zshrc
-|4,39,10,15,1598374696,"~/.zshrc"
--'  10  15  ~/.zshrc
-|4,39,10,15,1598374696,"~/.zshrc"
--'  10  15  ~/.zshrc
-|4,39,10,15,1598374696,"~/.zshrc"
--'  10  15  ~/.zshrc
-|4,39,10,15,1598374696,"~/.zshrc"
--'  10  15  ~/.zshrc
-|4,39,10,15,1598374696,"~/.zshrc"
--'  1  0  ~/dev/qtoken-cpp/.zshrc
-|4,39,1,0,1598374691,"~/dev/qtoken-cpp/.zshrc"
--'  1  0  ~/dev/qtoken-cpp/.zshrc
-|4,39,1,0,1598374691,"~/dev/qtoken-cpp/.zshrc"
--'  1  0  ~/dev/qtoken-cpp/.zshrc
-|4,39,1,0,1598374691,"~/dev/qtoken-cpp/.zshrc"
--'  1  0  ~/dev/qtoken-cpp/.zshrc
-|4,39,1,0,1598374691,"~/dev/qtoken-cpp/.zshrc"
--'  1  0  ~/dev/qtoken-cpp/.zshrc
-|4,39,1,0,1598374691,"~/dev/qtoken-cpp/.zshrc"
--'  1  0  ~/dev/qtoken-cpp/.zshrc
-|4,39,1,0,1598374691,"~/dev/qtoken-cpp/.zshrc"
--'  1  0  ~/dev/qtoken-cpp/.zshrc
-|4,39,1,0,1598374691,"~/dev/qtoken-cpp/.zshrc"
--'  1  0  ~/dev/qtoken-cpp/.zshrc
-|4,39,1,0,1598374691,"~/dev/qtoken-cpp/.zshrc"
--'  1  0  ~/dev/qtoken-cpp/.zshrc
-|4,39,1,0,1598374691,"~/dev/qtoken-cpp/.zshrc"
--'  1  0  ~/dev/qtoken-cpp/.zshrc
-|4,39,1,0,1598374691,"~/dev/qtoken-cpp/.zshrc"
--'  1  0  ~/dev/qtoken-cpp/.zshrc
-|4,39,1,0,1598374691,"~/dev/qtoken-cpp/.zshrc"
--'  1  0  ~/dev/qtoken-cpp/.zshrc
-|4,39,1,0,1598374691,"~/dev/qtoken-cpp/.zshrc"
--'  1  0  ~/dev/qtoken-cpp/.zshrc
-|4,39,1,0,1598374691,"~/dev/qtoken-cpp/.zshrc"
--'  1  0  ~/dev/qtoken-cpp/.zshrc
-|4,39,1,0,1598374691,"~/dev/qtoken-cpp/.zshrc"
+-'  56  22  ~/.config/rofi/config.rasi
+|4,39,56,22,1598407148,"~/.config/rofi/config.rasi"
+-'  22  8  ~/.config/rofi/config.rasi
+|4,39,22,8,1598407125,"~/.config/rofi/config.rasi"
+-'  1  0  ~/.config/rofi/config.rasi
+|4,39,1,0,1598407124,"~/.config/rofi/config.rasi"
+-'  145  0  ~/.config/rofi/glue_pro_blue.rasi
+|4,39,145,0,1598407115,"~/.config/rofi/glue_pro_blue.rasi"
+-'  145  0  ~/.config/rofi/glue_pro_blue.rasi
+|4,39,145,0,1598407115,"~/.config/rofi/glue_pro_blue.rasi"
+-'  145  0  ~/.config/rofi/glue_pro_blue.rasi
+|4,39,145,0,1598407030,"~/.config/rofi/glue_pro_blue.rasi"
+-'  145  0  ~/.config/rofi/glue_pro_blue.rasi
+|4,39,145,0,1598407030,"~/.config/rofi/glue_pro_blue.rasi"
+-'  1  0  ~/.config/rofi/glue_pro_blue.rasi
+|4,39,1,0,1598407018,"~/.config/rofi/glue_pro_blue.rasi"
+-'  1  0  ~/.config/rofi/glue_pro_blue.rasi
+|4,39,1,0,1598407018,"~/.config/rofi/glue_pro_blue.rasi"
+-'  1  0  ~/.config/rofi/glue_pro_blue.rasi
+|4,39,1,0,1598407018,"~/.config/rofi/glue_pro_blue.rasi"
+-'  1  0  ~/.config/rofi/glue_pro_blue.rasi
+|4,39,1,0,1598407018,"~/.config/rofi/glue_pro_blue.rasi"
+-'  51  19  ~/.config/i3/config
+|4,39,51,19,1598406644,"~/.config/i3/config"
+-'  51  19  ~/.config/i3/config
+|4,39,51,19,1598406644,"~/.config/i3/config"
+-'  51  19  ~/.config/i3/config
+|4,39,51,19,1598406644,"~/.config/i3/config"
+-'  51  19  ~/.config/i3/config
+|4,39,51,19,1598406644,"~/.config/i3/config"
+-'  51  19  ~/.config/i3/config
+|4,39,51,19,1598406644,"~/.config/i3/config"
+-'  51  19  ~/.config/i3/config
+|4,39,51,19,1598406644,"~/.config/i3/config"
+-'  51  19  ~/.config/i3/config
+|4,39,51,19,1598406644,"~/.config/i3/config"
+-'  51  19  ~/.config/i3/config
+|4,39,51,19,1598406644,"~/.config/i3/config"
+-'  52  0  ~/.config/i3/config
+|4,39,52,0,1598406425,"~/.config/i3/config"
+-'  52  0  ~/.config/i3/config
+|4,39,52,0,1598406425,"~/.config/i3/config"
+-'  52  0  ~/.config/i3/config
+|4,39,52,0,1598406425,"~/.config/i3/config"
+-'  52  0  ~/.config/i3/config
+|4,39,52,0,1598406425,"~/.config/i3/config"
+-'  52  0  ~/.config/i3/config
+|4,39,52,0,1598406425,"~/.config/i3/config"
+-'  52  0  ~/.config/i3/config
+|4,39,52,0,1598406425,"~/.config/i3/config"
+-'  52  0  ~/.config/i3/config
+|4,39,52,0,1598406425,"~/.config/i3/config"
+-'  52  0  ~/.config/i3/config
+|4,39,52,0,1598406425,"~/.config/i3/config"
+-'  178  11  ~/.config/i3/config
+|4,39,178,11,1598406297,"~/.config/i3/config"
+-'  178  11  ~/.config/i3/config
+|4,39,178,11,1598406297,"~/.config/i3/config"
+-'  178  11  ~/.config/i3/config
+|4,39,178,11,1598406297,"~/.config/i3/config"
+-'  178  11  ~/.config/i3/config
+|4,39,178,11,1598406297,"~/.config/i3/config"
+-'  178  11  ~/.config/i3/config
+|4,39,178,11,1598406297,"~/.config/i3/config"
+-'  178  11  ~/.config/i3/config
+|4,39,178,11,1598406297,"~/.config/i3/config"
+-'  178  11  ~/.config/i3/config
+|4,39,178,11,1598406297,"~/.config/i3/config"
+-'  178  11  ~/.config/i3/config
+|4,39,178,11,1598406297,"~/.config/i3/config"
+-'  17  0  ~/.cache/pacaur/rofi-dmenu/PKGBUILD
+|4,39,17,0,1598406167,"~/.cache/pacaur/rofi-dmenu/PKGBUILD"
+-'  17  0  ~/.cache/pacaur/rofi-dmenu/PKGBUILD
+|4,39,17,0,1598406167,"~/.cache/pacaur/rofi-dmenu/PKGBUILD"
+-'  17  0  ~/.cache/pacaur/rofi-dmenu/PKGBUILD
+|4,39,17,0,1598406167,"~/.cache/pacaur/rofi-dmenu/PKGBUILD"
+-'  17  0  ~/.cache/pacaur/rofi-dmenu/PKGBUILD
+|4,39,17,0,1598406167,"~/.cache/pacaur/rofi-dmenu/PKGBUILD"
+-'  17  0  ~/.cache/pacaur/rofi-dmenu/PKGBUILD
+|4,39,17,0,1598406167,"~/.cache/pacaur/rofi-dmenu/PKGBUILD"
+-'  17  0  ~/.cache/pacaur/rofi-dmenu/PKGBUILD
+|4,39,17,0,1598406167,"~/.cache/pacaur/rofi-dmenu/PKGBUILD"
+-'  17  0  ~/.cache/pacaur/rofi-dmenu/PKGBUILD
+|4,39,17,0,1598406167,"~/.cache/pacaur/rofi-dmenu/PKGBUILD"
+-'  17  0  ~/.cache/pacaur/rofi-dmenu/PKGBUILD
+|4,39,17,0,1598406167,"~/.cache/pacaur/rofi-dmenu/PKGBUILD"
+-'  17  0  ~/.cache/pacaur/rofi-dmenu/PKGBUILD
+|4,39,17,0,1598406167,"~/.cache/pacaur/rofi-dmenu/PKGBUILD"
+-'  17  0  ~/.cache/pacaur/rofi-dmenu/PKGBUILD
+|4,39,17,0,1598406167,"~/.cache/pacaur/rofi-dmenu/PKGBUILD"
+-'  17  0  ~/.cache/pacaur/rofi-dmenu/PKGBUILD
+|4,39,17,0,1598406167,"~/.cache/pacaur/rofi-dmenu/PKGBUILD"
+-'  17  0  ~/.cache/pacaur/rofi-dmenu/PKGBUILD
+|4,39,17,0,1598406167,"~/.cache/pacaur/rofi-dmenu/PKGBUILD"
+-'  17  0  ~/.cache/pacaur/rofi-dmenu/PKGBUILD
+|4,39,17,0,1598406167,"~/.cache/pacaur/rofi-dmenu/PKGBUILD"
+-'  17  0  ~/.cache/pacaur/rofi-dmenu/PKGBUILD
+|4,39,17,0,1598406167,"~/.cache/pacaur/rofi-dmenu/PKGBUILD"
+-'  17  0  ~/.cache/pacaur/rofi-dmenu/PKGBUILD
+|4,39,17,0,1598406167,"~/.cache/pacaur/rofi-dmenu/PKGBUILD"
+-'  17  0  ~/.cache/pacaur/rofi-dmenu/PKGBUILD
+|4,39,17,0,1598406167,"~/.cache/pacaur/rofi-dmenu/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/rofi-dmenu/PKGBUILD
+|4,39,1,0,1598406127,"~/.cache/pacaur/rofi-dmenu/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/rofi-dmenu/PKGBUILD
+|4,39,1,0,1598406127,"~/.cache/pacaur/rofi-dmenu/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/rofi-dmenu/PKGBUILD
+|4,39,1,0,1598406127,"~/.cache/pacaur/rofi-dmenu/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/rofi-dmenu/PKGBUILD
+|4,39,1,0,1598406127,"~/.cache/pacaur/rofi-dmenu/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/rofi-dmenu/PKGBUILD
+|4,39,1,0,1598406127,"~/.cache/pacaur/rofi-dmenu/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/rofi-dmenu/PKGBUILD
+|4,39,1,0,1598406127,"~/.cache/pacaur/rofi-dmenu/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/rofi-dmenu/PKGBUILD
+|4,39,1,0,1598406127,"~/.cache/pacaur/rofi-dmenu/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/rofi-dmenu/PKGBUILD
+|4,39,1,0,1598406127,"~/.cache/pacaur/rofi-dmenu/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/rofi-dmenu/PKGBUILD
+|4,39,1,0,1598406127,"~/.cache/pacaur/rofi-dmenu/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/rofi-dmenu/PKGBUILD
+|4,39,1,0,1598406127,"~/.cache/pacaur/rofi-dmenu/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/rofi-dmenu/PKGBUILD
+|4,39,1,0,1598406127,"~/.cache/pacaur/rofi-dmenu/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/rofi-dmenu/PKGBUILD
+|4,39,1,0,1598406127,"~/.cache/pacaur/rofi-dmenu/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/rofi-dmenu/PKGBUILD
+|4,39,1,0,1598406127,"~/.cache/pacaur/rofi-dmenu/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/rofi-dmenu/PKGBUILD
+|4,39,1,0,1598406127,"~/.cache/pacaur/rofi-dmenu/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/rofi-dmenu/PKGBUILD
+|4,39,1,0,1598406127,"~/.cache/pacaur/rofi-dmenu/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/rofi-dmenu/PKGBUILD
+|4,39,1,0,1598406127,"~/.cache/pacaur/rofi-dmenu/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/slack-desktop/PKGBUILD
+|4,39,1,0,1598405926,"~/.cache/pacaur/slack-desktop/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/slack-desktop/PKGBUILD
+|4,39,1,0,1598405926,"~/.cache/pacaur/slack-desktop/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/slack-desktop/PKGBUILD
+|4,39,1,0,1598405926,"~/.cache/pacaur/slack-desktop/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/slack-desktop/PKGBUILD
+|4,39,1,0,1598405926,"~/.cache/pacaur/slack-desktop/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/slack-desktop/PKGBUILD
+|4,39,1,0,1598405926,"~/.cache/pacaur/slack-desktop/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/slack-desktop/PKGBUILD
+|4,39,1,0,1598405926,"~/.cache/pacaur/slack-desktop/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/slack-desktop/PKGBUILD
+|4,39,1,0,1598405926,"~/.cache/pacaur/slack-desktop/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/slack-desktop/PKGBUILD
+|4,39,1,0,1598405926,"~/.cache/pacaur/slack-desktop/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/slack-desktop/PKGBUILD
+|4,39,1,0,1598405926,"~/.cache/pacaur/slack-desktop/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/slack-desktop/PKGBUILD
+|4,39,1,0,1598405926,"~/.cache/pacaur/slack-desktop/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/slack-desktop/PKGBUILD
+|4,39,1,0,1598405926,"~/.cache/pacaur/slack-desktop/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/slack-desktop/PKGBUILD
+|4,39,1,0,1598405926,"~/.cache/pacaur/slack-desktop/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/slack-desktop/PKGBUILD
+|4,39,1,0,1598405926,"~/.cache/pacaur/slack-desktop/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/slack-desktop/PKGBUILD
+|4,39,1,0,1598405926,"~/.cache/pacaur/slack-desktop/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/slack-desktop/PKGBUILD
+|4,39,1,0,1598405926,"~/.cache/pacaur/slack-desktop/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/slack-desktop/PKGBUILD
+|4,39,1,0,1598405926,"~/.cache/pacaur/slack-desktop/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/slack-desktop/PKGBUILD
+|4,39,1,0,1598405926,"~/.cache/pacaur/slack-desktop/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/slack-desktop/PKGBUILD
+|4,39,1,0,1598405926,"~/.cache/pacaur/slack-desktop/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/slack-desktop/PKGBUILD
+|4,39,1,0,1598405926,"~/.cache/pacaur/slack-desktop/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/slack-desktop/PKGBUILD
+|4,39,1,0,1598405926,"~/.cache/pacaur/slack-desktop/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/slack-desktop/PKGBUILD
+|4,39,1,0,1598405926,"~/.cache/pacaur/slack-desktop/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/slack-desktop/PKGBUILD
+|4,39,1,0,1598405926,"~/.cache/pacaur/slack-desktop/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/slack-desktop/PKGBUILD
+|4,39,1,0,1598405926,"~/.cache/pacaur/slack-desktop/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/slack-desktop/PKGBUILD
+|4,39,1,0,1598405926,"~/.cache/pacaur/slack-desktop/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/slack-desktop/PKGBUILD
+|4,39,1,0,1598405926,"~/.cache/pacaur/slack-desktop/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/slack-desktop/PKGBUILD
+|4,39,1,0,1598405926,"~/.cache/pacaur/slack-desktop/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/slack-desktop/PKGBUILD
+|4,39,1,0,1598405926,"~/.cache/pacaur/slack-desktop/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/slack-desktop/PKGBUILD
+|4,39,1,0,1598405926,"~/.cache/pacaur/slack-desktop/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/slack-desktop/PKGBUILD
+|4,39,1,0,1598405926,"~/.cache/pacaur/slack-desktop/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/slack-desktop/PKGBUILD
+|4,39,1,0,1598405926,"~/.cache/pacaur/slack-desktop/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/slack-desktop/PKGBUILD
+|4,39,1,0,1598405926,"~/.cache/pacaur/slack-desktop/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/slack-desktop/PKGBUILD
+|4,39,1,0,1598405926,"~/.cache/pacaur/slack-desktop/PKGBUILD"
+-'  8  40  ~/arc_block_notes.txt
+|4,39,8,40,1598383200,"~/arc_block_notes.txt"
 
 # History of marks within files (newest to oldest):
+
+> ~/.config/rofi/config.rasi
+	*	1598407147	0
+	"	56	22
+	^	56	23
+	.	56	22
+	+	56	22
+
+> ~/.config/rofi/glue_pro_blue.rasi
+	*	1598407114	0
+	"	145	0
+	^	145	1
+	.	145	0
+	+	145	0
+
+> ~/.config/i3/config
+	*	1598406590	0
+	"	51	19
+	^	51	20
+	.	51	19
+	+	239	61
+	+	239	5
+	+	239	27
+	+	239	35
+	+	180	0
+	+	179	0
+	+	240	0
+	+	178	1
+	+	194	15
+	+	193	47
+	+	174	0
+	+	175	38
+	+	194	14
+	+	178	11
+	+	178	0
+	+	179	11
+	+	180	0
+	+	178	11
+	+	51	33
+	+	49	17
+	+	52	0
+	+	53	0
+	+	52	0
+	+	50	0
+	+	51	19
+
+> ~/.cache/pacaur/rofi-dmenu/PKGBUILD
+	*	1598406159	0
+	"	17	0
+
+> ~/.cache/pacaur/slack-desktop/PKGBUILD
+	*	1598405925	0
+	"	1	0
+
+> ~/.cache/pacaur/teams-for-linux/PKGBUILD
+	*	1598381001	0
+	"	22	0
 
 > /etc/locale.gen
 	*	1598375724	0
@@ -309,30 +390,6 @@
 	^	2	0
 	.	1	20
 	+	1	20
-
-> ~/.config/i3/config
-	*	1598374994	0
-	"	181	11
-	^	181	12
-	.	181	11
-	+	242	61
-	+	242	5
-	+	242	27
-	+	242	35
-	+	183	0
-	+	182	0
-	+	243	0
-	+	181	1
-	+	197	15
-	+	196	47
-	+	177	0
-	+	178	38
-	+	197	14
-	+	181	11
-	+	181	0
-	+	182	11
-	+	183	0
-	+	181	11
 
 > ~/.zshrc
 	*	1598374704	0
